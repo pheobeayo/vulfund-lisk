@@ -24,7 +24,7 @@ const Dashboard = lazy(() => import("../pages/dashboard/Dashboard"));
 const Projects = lazy(() => import("../pages/dashboard/Projects"));
 const Donate = lazy(() => import("../pages/donordashboard/Donate"));
 const RequestFund = lazy(() => import("../pages/dashboard/RequestFund"));
-const ProjectDetails = lazy(() => import("../pages/ProjectDetails"));
+const ProjectDetails = lazy(() => import("../pages/dashboard/ProjectDetails"));
 const AboutUs = lazy(() => import("../pages/About_us"));
 const Dao = lazy(() => import("../pages/donordashboard/Dao"));
 const DonorsDashboardLayout = lazy(() => import('../layout/DonorsDashboardLayout'));
@@ -44,8 +44,9 @@ const router = createBrowserRouter(createRoutesFromElements(
       <Route index element={<Dashboard />} />
       <Route path='projects' element={<Projects />} />
       <Route path='request_fund' element={<RequestFund />} />
+      <Route path="project-details" element={<ProjectDetails />} />
     </Route>
-    <Route path='/project_details' element={<ProjectDetails />} />
+    
     <Route path='/donorsdashboard' element={<DonorsDashboardLayout />} >
       <Route index element={<DonorsDashboard />} />
       <Route path='projects' element={<DonorsProjects />} />

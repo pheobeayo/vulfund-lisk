@@ -21,7 +21,7 @@ const Project = () => {
                         <h3 className="text-[#110A03] lg:text-[15px] md:text-[15px] text-[13px] font-bold ">
                             Amount Needed: $300
                         </h3>
-                        <Link to='/project_details'> <button className="bg-[#110A03] hover:bg-[#11785A] text-white font-bold py-2 px-4  rounded">
+                        <Link to='/dashboard/project_details'> <button className="bg-[#110A03] hover:bg-[#11785A] text-white font-bold py-2 px-4  rounded">
                             View details
                         </button>
                         </Link>
@@ -43,9 +43,9 @@ const Project = () => {
                         <h3 className="text-[#110A03] lg:text-[15px] md:text-[15px] text-[13px] font-bold">
                             Amount Needed: $300
                         </h3>
-                        <button className="bg-[#110A03] hover:bg-[#11785A] text-white font-bold py-2 px-4  rounded">
+                        <Link to='/dashboard/project_details'>  <button className="bg-[#110A03] hover:bg-[#DA8450] text-white font-bold py-2 px-4  rounded">
                             View details
-                        </button>
+                        </button></Link>
 
                     </div>
 
@@ -62,9 +62,9 @@ const Project = () => {
                         <h3 className="text-[#110A03] lg:text-[15px] md:text-[15px] text-[13px] font-bold">
                             Amount Needed: $300
                         </h3>
-                        <button className="bg-[#110A03] hover:bg-[#11785A] text-white font-bold py-2 px-4  rounded">
+                        <Link  to='/dashboard/project_details'><button className="bg-[#110A03] hover:bg-[#DA8450] text-white font-bold py-2 px-4  rounded">
                             View details
-                        </button>
+                        </button></Link>
 
                     </div>
                 </div>

@@ -44,6 +44,11 @@ const MobileSidebar = () => {
             <GiReceiveMoney  className="mr-4" /> Request Fund
           </NavLink>
           <NavLink
+            to="/project-details"
+            className="text-[14px] text-white  flex items-center py-4 mb-4 px-6  hover:text-[#DA8450]"
+           
+          >Project Details</NavLink>
+          <NavLink
             to="/funded-projects"
             className="text-[14px] text-white  flex items-center py-4 mb-4 px-6  hover:text-[#DA8450]"
            

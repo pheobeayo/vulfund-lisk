@@ -6,7 +6,7 @@ const ProjectDetail = () => {
         <div className="p-8">
             <img src={projectphoto} alt="projectphoto" className="rounded-t-lg " />
             <h1 className="text-[#110A03] font-serif font-bold text-xl">The Safeplace Home for Elderly</h1>
-            <Link>Download your Organization Documents here </Link>
+            <Link  className='text-[#DA8450]'>Download your Organization Documents here </Link>
             <h2 className="text-[#110A03] font-serif font-bold text-xl">Proposal</h2>
 
             <p className="text-[#3B3B3B] font-medium">Need Description
@@ -18,7 +18,7 @@ const ProjectDetail = () => {
                 <br /><span className="text-[#110A03]">DAO Status:</span> 5 Votes
             </p>
             <div className='mt-6'>
-            <button className="bg-[#110A03] hover:bg-[#11785A] text-white py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px]  my-2 hover:font-bold mr-4">
+            <button className="bg-[#110A03] hover:bg-[#DA8450] text-white py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px]  my-2 hover:font-bold mr-4">
                 Vote now
             </button>
           

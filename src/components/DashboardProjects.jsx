@@ -1,5 +1,6 @@
 import projectphoto from "../assets/projectphoto.svg";
 import projectphoto2 from "../assets/projectphoto2.svg";
+import { Link } from "react-router-dom";
 
 const DashboardProjects = () => {
     return (
@@ -28,9 +29,9 @@ const DashboardProjects = () => {
                         <h3 className="text-[#110A03] lg:text-[15px] md:text-[15px] text-[13px] font-bold ">
                             Amount Needed: $300
                         </h3>
-                         <button className="bg-[#110A03] hover:bg-[#11785A] text-white font-bold py-2 px-4  rounded">
+                     <Link to='/dashboard/project-details'>    <button className="bg-[#110A03] hover:bg-[#DA8450] text-white font-bold py-2 px-4  rounded">
                             View details
-                        </button>
+                        </button></Link>
                         
 
                     </div>
@@ -50,7 +51,7 @@ const DashboardProjects = () => {
                         <h3 className="text-[#110A03] lg:text-[15px] md:text-[15px] text-[13px] font-bold">
                             Amount Needed: $300
                         </h3>
-                        <button className="bg-[#110A03] hover:bg-[#11785A] text-white font-bold py-2 px-4  rounded">
+                        <button className="bg-[#110A03] hover:bg-[#DA8450] text-white font-bold py-2 px-4  rounded">
                             View details
                         </button>
 
@@ -69,7 +70,7 @@ const DashboardProjects = () => {
                         <h3 className="text-[#110A03] lg:text-[15px] md:text-[15px] text-[13px] font-bold">
                             Amount Needed: $300
                         </h3>
-                        <button className="bg-[#110A03] hover:bg-[#11785A] text-white font-bold py-2 px-4  rounded">
+                        <button className="bg-[#110A03] hover:bg-[#DA8450] text-white font-bold py-2 px-4  rounded">
                             View details
                         </button>
 
