@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Project = () => {
     return (
         <main className="bg-gradient-to-r from-[#110A03] via-[#110A03] to-[#DA8450] ">
-            <div className='lg:w-[90%] md:w-[90%] w-[100%] mx-auto py-12 px-4 lg:px-0 md:px-0'>
+            <div className='lg:w-[90%] md:w-[90%] w-[100vw] mx-auto py-12 px-4 lg:px-0 md:px-0'>
                 <div className="grid place-items-center text-4xl font-bold text-white p-10"> Projects</div>
                 <div className="flex lg:flex-row md:flex-row flex-col justify-between items-center flex-wrap">
                     <div className="bg-white lg:w-[32%] md:w-[32%] w-[100%] p-4 border border-gray-200 rounded-lg mb-4 shadow-lg">

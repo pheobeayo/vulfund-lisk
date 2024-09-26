@@ -8,7 +8,7 @@ const Header = () => {
 
     return (
         <header className="py-8 bg-gradient-to-r from-[#110A03] via-[#110A03] to-[#DA8450]">
-            <div className="w-[100%] mx-auto lg:flex md:flex justify-between hidden">
+            <div className="w-[100vw] mx-auto lg:flex md:flex justify-between hidden">
                 <img src={logo} alt="" className="w-[235px] h-[43px]" />
                 <nav>
                     <NavLink

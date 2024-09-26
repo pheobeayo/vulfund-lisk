@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
     return (
         <footer
-            className="bg-gradient-to-r from-[#110A03] via-[#110A03] to-[#DA8450] text-white py-8 px-2">
+            className="bg-gradient-to-r from-[#110A03] via-[#110A03] to-[#DA8450] text-white py-8 w-[100vw]">
             <div className="flex justify-between flex-col lg:flex-row md:flex-row items-center px-4 lg:px-0 md:px-0">
                 <div className="w-[50%] lg:items-start md:items-start">
 
