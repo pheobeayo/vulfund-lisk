@@ -21,6 +21,14 @@ Vulfund addresses these issues by:
 
 * Direct Impact and global reach: Providing a platform for underprivileged institutions to register their needs and receive direct financial support for essential needs like food, healthcare, education, and skills training from a global crowdfunding community.
 
+
+## Screenshots
+
+- 1
+![Screenshot](./public/screenshot1.jpg)
+- 2
+![Screenshot](./public/screenshot2.jpg)
+
 ## Target Market
 
 Majorly are global donors and African beneficiaries
