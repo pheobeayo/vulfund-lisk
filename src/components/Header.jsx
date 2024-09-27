@@ -43,7 +43,9 @@ const Header = () => {
                         Dao Community
                     </NavLink>
                 </nav>
+                <div className="mr-12 lg:mr-8 md:mr-8">
                 <w3m-button />
+                </div>
             </div>
             <div className="w-[95%] mx-auto flex justify-between lg:hidden md:hidden relative">
                 <img src={logo} alt="" className="w-[185px] h-[43px]" />
