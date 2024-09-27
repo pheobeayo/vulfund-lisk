@@ -41,7 +41,7 @@ Lisk, Solidity, Foundry, Typescript, Bash, Tenderly, Solidity, Vite, react, Tail
 
 ## Deployed Address on Lisk:
 
-0x1f8B55D6b85b42bDBcc4f183656e0C01A93Dbf40
+0x9342dBCC8cb00819B250df7526FfDb6B849732d3
 
 ## Pitchdeck:
 
