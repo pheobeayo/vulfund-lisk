@@ -1,20 +1,20 @@
-import DashboardProjects from "../../components/DashboardProjects";
+import RequestForm from "../../components/RequestForm";
 import DashboardUpper from "../../components/dashboardUpper";
 
 
 
 
-const Projects = () => {
+const RequestFund = () => {
 
     return (
 
         <main className="bg-white">
             <DashboardUpper/>
-            <DashboardProjects/>
+            <RequestForm/>
            
         </main>
 
     );
 };
 
-export default Projects;
+export default RequestFund;

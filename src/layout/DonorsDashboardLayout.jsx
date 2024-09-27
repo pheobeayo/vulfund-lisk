@@ -1,10 +1,14 @@
 import DonorSidebar from "../components/DonorSidebar"
-import { Outlet} from "react-router-dom"
+import { Outlet, Navigate } from "react-router-dom"
 import DonorMobileSidebar from "../components/DonorMobileSidebar"
-
+import { useWeb3ModalAccount } from "@web3modal/ethers/react"
 
 const DashboardLayout = () => {
-  return (
+  const { isConnected } = useWeb3ModalAccount();
+
+  return !isConnected ? (
+    <Navigate to={"/"} />
+  ) : (
     <div>
       <div className="flex bg-white">
         <DonorSidebar/>

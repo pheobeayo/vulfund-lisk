@@ -20,7 +20,7 @@ const Sidebar = () => {
     return (
         
         <div className='bg-[#110A03]  w-[20%] text-white p-8 py-12 h-[190vh]'>
-            <div className="grid place-items-center">
+            {/* <div className="grid place-items-center">
             <img src={logo} alt='logo' className="mb-20" />
             </div>
             <NavLink to="/dashboard" className="text-[16px] text-white flex items-center  py-4 mb-4 px-6  hover:text-[#FF7827]"  style={({isActive}) => isActive ? activeStyle : null } end><CgHomeAlt className="mr-4" />Dashboard</NavLink>
@@ -29,7 +29,7 @@ const Sidebar = () => {
             <NavLink to="project-details" className="text-[16px] text-white  flex items-center py-4 mb-4 px-6  hover:text-[#FF7827]"  style={({isActive}) => isActive ? activeStyle : null } ><GoProjectSymlink  className="mr-4" /> Project Details</NavLink>
             <NavLink to="funded-projects" className="text-[16px] text-white  flex items-center py-4 mb-4 px-6  hover:text-[#FF7827]"  style={({isActive}) => isActive ? activeStyle : null } ><GoProjectSymlink  className="mr-4" /> Funded Projects</NavLink>
            <button className="bg-[#DA8450] text-[16px] text-white  flex items-center py-4 mb-4 px-6  hover:text-[#FF7827]">< CiLogout className="mr-4" /> Log out</button>
-            <p className="text-white mt-16">&copy; Vulfund 2024</p>
+            <p className="text-white mt-16">&copy; Vulfund 2024</p> */}
         </div>
         
     );
