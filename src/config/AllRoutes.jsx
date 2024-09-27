@@ -10,7 +10,7 @@ import PageLoader from "../components/Loader/PageLoader";
 
 const Home = lazy(() => import("../pages/Home"));
 const HomeLayout = lazy(() => import("../layout/HomeLayout"));
-const Signin = lazy(() => import("../pages/Signin"));
+const Signin = lazy(() => import("../pages/donordashboard/Signin"));
 const Donate = lazy(() => import("../pages/donordashboard/Donate"));
 const RequestFund = lazy(() => import("../pages/donordashboard/RequestFund"));
 const ProjectDetails = lazy(() => import("../pages/dashboard/ProjectDetails"));
