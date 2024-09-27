@@ -47,7 +47,8 @@ Lisk, Solidity, Foundry, Typescript, Bash, Tenderly, Solidity, Vite, react, Tail
 
 https://www.canva.com/design/DAGR3tSXCfc/BgMHYe3XrA-UFy_DYFSkig/view?utm_content=DAGR3tSXCfc&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
-## Demo Video:
+## Demo Video: 
+https://youtu.be/bxoJzgoQU9s
 
 ### Team Information:
 1. Clementina Odegha - Product Manager
