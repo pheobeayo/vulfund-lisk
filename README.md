@@ -55,4 +55,4 @@ https://youtu.be/bxoJzgoQU9s
 2. Adetoro Odun - Product Designer
 3. Sanni Ifeoluwa - Frontend Developer
 4. Atoyebi Kemi - Frontend Developer
-5. Adewale Iyanuoluwa - Smart Contract Developer
+5. Isaac Miracle - Smart Contract Developer
